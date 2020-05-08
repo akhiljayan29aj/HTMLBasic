@@ -137,11 +137,101 @@ table tag is used to create a table. It has 2 children tags:
 
 ## 07. Forms and Inputs
 
+```
+<form action="process.php">
+```
+The form tag is used to create a form. The action atrribute is where the form will be submitted.
+In this file a div tag is used. This tag is used to create different divisions within the markup for easy access and seperation.
 
+- For Text
+```
+<label for="name">Name</label><br>
+```
+This is a inline element therefore we need to use br tag to put the next element to the next line.
+"for" attribute needs to match the id of the input. This will add the functionality that if we click on the Name it will highlight the corresponding input box.
+```
+<input type="text" id="name" name="name" placeholder="Enter your name">
+```
+"type" attribute sets the type of input.
+"name" attribute is used on the server side.
+"placeholder" attribute will hold the given value in the input field till the user hasn't given any input. This is not actual text, just a shodow can be over wriiten without deleting.
 
+- For Email
+```
+<label for="email">Email</label><br>
+<input type="email" name="email" id="email" value="@gmail.com">
+```
+"value" attribute  will prefill this input with @gmail.com.
 
+- For Textarea
+```
+<label for="message">Message</label><br>
+<textarea name="message" id="message" cols="30" rows="10"></textarea>
+```
+The "col" and "row" attributes will provide the character space. In this case, it will provide a 30x10 space.
 
+- For Select
+```
+<label for="gender">Gender</label><br>
+<select name="gender" id="gender">
+  <option value="male">Male</option>
+  <option value="female" selected>Female</option>
+  <option value="other">Other</option>
+</select>
+```
+The select tag will create a drop down menu which will contain the options made using the option tag.
+The "selected" attribute will pre-select the option.
 
+- For number
+```
+<label for="age">Age</label><br>
+<input type="number" name="age" id="age">
+```
+
+- For Date
+```
+<label for="birthdate">Birthdate</label><br>
+<input type="date" name="birthdate" id="birthdate">
+```
+
+- For Radio
+```
+<label for="membership">Membership</label>
+<input type="radio" name="membership" id="membership" value="simple">Simple
+<input type="radio" name="membership" id="membership" value="standard" checked>Standard
+<input type="radio" name="membership" id="membership" value="super">Super
+```
+The input tag will only create selectors.
+We need to label them after the input tag ends. In this case "Simple" is the label for the first selector.
+We can use "checked" attribute to make the input pre-selected.
+
+- For checkbox
+```
+<label for="vehicles">I like..</label>
+<input type="checkbox" name="vehicles" id="vehicles" value="bike">Bike
+<input type="checkbox" name="vehicles" id="vehicles" value="car">Car
+<input type="checkbox" name="vehicles" id="vehicles" value="boat" checked>Boat
+```
+"value" attribute holds the data that is sent to the server.
+
+###### NOTE:
+1. select tag will create a drop down menu with option tags as input.
+2. type="radio" makes selectors. In radio we can only select one input at a time.
+3. type="checkbox" makes selectors too but we can select multiple at a time.
+
+- Input Submit and Reset
+```
+<input type="submit" value="Submit"><br>
+<input type="reset" value="Reset"><br>
+```
+"value" attribute holds the Text to bhi displayed.
+
+- Button Submit and Reset
+```
+<button type="submit">Submit</button> 
+<button type="reset">Reset</button>
+
+```
 
  
 
