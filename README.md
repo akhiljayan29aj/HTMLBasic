@@ -1,7 +1,9 @@
 # HOW TO USE THIS HTML SANDBOX
+
 Just go through the above codes serial wise and refer this readme section for notes. I am using Visual Studio Code as my editor.
 
 ## 01. BASIC LAYOUT
+
 Tag Syntax:
 - Elements surrounded in angle brackets.
 - Usually they have a starting and an ending tag.
@@ -31,6 +33,7 @@ Now the basic layout :
 </html>
 ```
 ## 02. Using Live Server
+
 Live Server is a very handy tool which helps us to launch a local development server with live reload feature for static & dynamic pages.
 You can simply install Live Server from the [VSCode Market Place](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
@@ -66,8 +69,58 @@ This meta tag contains the keywords which will help in search engine optimisatio
 This meta tag is used when we want that the website should not rank or show up in the search engine.
 
 
+## 04. Typography
+
+- HEADING
+
+There are 6 HEADING tags h1 to h6, h1 being the biggest and h6 being the smallest.
 
 
+- PARAGRAPH
+
+  - p tag is used for making paragraphs.
+  - strong tag makes the text bold.
+  - em tag makes the text italic.
+  - br tag is used to make a line break as simply using enter to make a line break in the p tag doesn't work.
+  - hr tag breaks the line and also puts a horizontal line.
+  - del tag strikes through the text.
+
+## 05. Links and Images
+
+- EXTERNAL LINK
+```
+ <a href="http://google.com">Click for GOOGLE</a>
+```
+This will generate a text GOOGLE which will be linked to "http://google.com". But this will link will be opened in the current tab not a new one. So, we will use an attribut target="_blank" to make the link open in a new tab.
+
+- INTERNAL LINK
+```
+<a href="./04_typography.html">Typography</a>
+```
+This will open the typography.html file which is in the current folder. "./" means current folder and "../" means previous folder.
+
+- LOCAL IMAGES
+```
+<img src="/images/sample.jpg" alt="sample image">
+```
+This will add an image of its full size and we need to resize the image using CSS.
+The "scr" attribute contains the location of the image on the local machine.
+The "alt" attribut contains alternative text which will be shown if the image doesnot load up.
+
+- REMOTE IMAGES
+```
+<img src="https://source.unsplash.com/1600x900/?buildings" alt="My image">
+```
+To load a remote image we just need to change the "scr" attributes address to the address of the remote image.
+[Unsplash Source](https://source.unsplash.com/) is a great site for image sharing.
+
+
+
+
+
+
+
+ 
 
 
 
