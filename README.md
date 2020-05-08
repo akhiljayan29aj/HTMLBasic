@@ -230,9 +230,37 @@ We can use "checked" attribute to make the input pre-selected.
 ```
 <button type="submit">Submit</button> 
 <button type="reset">Reset</button>
-
 ```
 
+## 08. Inline VS Block Level Element
+
+Block level elements span across 100% of the width therefore the next thing will be knocked over to the next line.
+
+Inline level elements doesn't span across the width, it only takes up that space and the next thing will go to the right of the element
+
+## 09. Div, span, id and class
+
+div and span are functionally same but the difference is that span is an inline element whereas div is a block level element.
+
+We should treat id as a unique thing to a div or an element and classes can be used multiple times in different divs or elements.
+
+## 10. Entities
+
+There are some entities reserved in HTML5. This is because use of these may disturb the markup. So, we can use the entities in the above files.
+
+## 11. Semantic Tags
+
+These tags can be used as a replacement of divs for different section of the structure of the page.
+
+- header tag : This tag usually go at the top. It has the logo. It may have the navigation and search box.
+- nav tag : This is for the navigation. It has an unordered list. It can be a side menu.
+- main tag : This is for the main content of the page.
+- section tag : The main tag can contain different section tags.
+- article tag : The section tag can contain different article tags.
+- aside tag : This is for the sidebar content. This is not the main focus of the page. It can contain ADs or categories section.
+- footer tag : This goes at the bottom. It contains copyright statements
+
+![Basic Structure of a webpage using Semantic tags](https://www.w3schools.com/html/img_sem_elements.gif)
  
 
 
