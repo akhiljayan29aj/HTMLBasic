@@ -35,6 +35,7 @@ Now the basic layout :
 ## 02. Using Live Server
 
 Live Server is a very handy tool which helps us to launch a local development server with live reload feature for static & dynamic pages.
+
 You can simply install Live Server from the [VSCode Market Place](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ## 03. META Tags
@@ -104,8 +105,11 @@ This will open the typography.html file which is in the current folder. "./" mea
 <img src="/images/sample.jpg" alt="sample image">
 ```
 This will add an image of its full size and we need to resize the image using CSS.
+
 The "scr" attribute contains the location of the image on the local machine.
+
 The "alt" attribut contains alternative text which will be shown if the image doesnot load up.
+
 
 - REMOTE IMAGES
 ```
@@ -119,7 +123,9 @@ To load a remote image we just need to change the "scr" attributes address to th
 - Unordered List
 
 ul tag is used to create an unordered list.
+
 li tag is used create an list item inside the list.
+
 
 - Ordered List
 
@@ -132,7 +138,9 @@ We can also nest these lists.
 - Tables
 
 table tag is used to create a table. It has 2 children tags:
+
 1. thead tag: This is used to create the head of the table. This has a child tag, tr tag which stands for table row. This is used to create a table row. Now this tr tag contains th tag which will add columns to the row.
+
 2. tbody tag: This is used to create the body of the table. This has a child tag, tr tag which stands for table row. This is used to create a table row. Now this tr tag contains td tag which will add columns to the row.
 
 ## 07. Forms and Inputs
@@ -141,6 +149,7 @@ table tag is used to create a table. It has 2 children tags:
 <form action="process.php">
 ```
 The form tag is used to create a form. The action atrribute is where the form will be submitted.
+
 In this file a div tag is used. This tag is used to create different divisions within the markup for easy access and seperation.
 
 - For Text
@@ -148,12 +157,15 @@ In this file a div tag is used. This tag is used to create different divisions w
 <label for="name">Name</label><br>
 ```
 This is a inline element therefore we need to use br tag to put the next element to the next line.
+
 "for" attribute needs to match the id of the input. This will add the functionality that if we click on the Name it will highlight the corresponding input box.
 ```
 <input type="text" id="name" name="name" placeholder="Enter your name">
 ```
 "type" attribute sets the type of input.
+
 "name" attribute is used on the server side.
+
 "placeholder" attribute will hold the given value in the input field till the user hasn't given any input. This is not actual text, just a shodow can be over wriiten without deleting.
 
 - For Email
@@ -180,6 +192,7 @@ The "col" and "row" attributes will provide the character space. In this case, i
 </select>
 ```
 The select tag will create a drop down menu which will contain the options made using the option tag.
+
 The "selected" attribute will pre-select the option.
 
 - For number
@@ -202,7 +215,9 @@ The "selected" attribute will pre-select the option.
 <input type="radio" name="membership" id="membership" value="super">Super
 ```
 The input tag will only create selectors.
+
 We need to label them after the input tag ends. In this case "Simple" is the label for the first selector.
+
 We can use "checked" attribute to make the input pre-selected.
 
 - For checkbox
