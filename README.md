@@ -2,7 +2,7 @@
 
 Just go through the above codes serial wise and refer this readme section for notes. I am using Visual Studio Code as my editor.
 
-## 01. BASIC LAYOUT
+## 01. Basic Layout
 
 Tag Syntax:
 - Elements surrounded in angle brackets.
