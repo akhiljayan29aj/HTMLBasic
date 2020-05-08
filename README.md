@@ -114,6 +114,29 @@ The "alt" attribut contains alternative text which will be shown if the image do
 To load a remote image we just need to change the "scr" attributes address to the address of the remote image.
 [Unsplash Source](https://source.unsplash.com/) is a great site for image sharing.
 
+## 06. List and Tables
+
+- Unordered List
+
+ul tag is used to create an unordered list.
+li tag is used create an list item inside the list.
+
+- Ordered List
+
+ol tag is used to create an ordered list.
+
+- Nested List
+
+We can also nest these lists.
+
+- Tables
+
+table tag is used to create a table. It has 2 children tags:
+1. thead tag: This is used to create the head of the table. This has a child tag, tr tag which stands for table row. This is used to create a table row. Now this tr tag contains th tag which will add columns to the row.
+2. tbody tag: This is used to create the body of the table. This has a child tag, tr tag which stands for table row. This is used to create a table row. Now this tr tag contains td tag which will add columns to the row.
+
+## 07. Forms and Inputs
+
 
 
 
